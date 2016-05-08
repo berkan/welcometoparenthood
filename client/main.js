@@ -26,13 +26,17 @@ Router.route('/developing-language', function() {
 
 
 Template.developing_language.helpers({
-  states: function() {
+  states0: function() {
     return [
       { time: 1, title: "first", text: "hello first"},
       { time: 2, title: "second", text: "hello second"},
       { time: 3, title: "third", text: "hello third"},
       { time: 4, title: "fourth", text: "hello fourth"},    
     ]
+  },
+
+  states: function() {
+    return LinguisticStages.find();    
   }
   
 });

@@ -1,0 +1,19 @@
+<template name="list_timeline">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <ul class="list-group">
+	{{#each this}}
+	<li class="list-group-item">	
+	  <h4>{{age}}</h4>
+	  <br/>
+	  <span class="child"><span class="listlabel">Your child:</span>{{child}}</span>
+	  <br/>
+	  <span class="adult"><span class="listlabel">You can:</span>{{adult}}</span>
+	</li>
+	{{/each}}
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-4"></div>
+</template>

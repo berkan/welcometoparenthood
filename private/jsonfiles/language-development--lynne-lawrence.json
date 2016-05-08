@@ -1,0 +1,65 @@
+{
+
+  "7-8 months in uterus": {
+    "start": "-2m",
+    "end": "-1m",
+    "child": "Reacts to sounds from the environment, stretches and kicks when he hears a familiar sound. Mother's voice and the rhythm of her language becomes a strong reference point for after birth. Can also remember other regular voices, such as that of father talking / reading a book to the baby regularly, or the melodies of songs sung frequently.",
+    "adult": "Regulary read and sing simple songs to your baby"
+  },
+
+  "0-8 weeks": {
+    "start": "0w",
+    "end": "8w",
+    "child": "Watches the mouth of the speaker intently. Makes mainly biological noises -- breathing, eating and those that will reflect hunger or pain",
+    "adult": "Introduce songs and rhytmic language"
+  },
+
+  "8-20 weeks": {
+    "child": "Shows good social response to sound of familiar voices. Coos, smiles, enjoys singing, chuckles. May turn head to find source of voices. A variety of sounds made, many sounds being produced.",
+    "adult": "Help her develop her vocal cords by nursing her."
+    
+  },
+
+  "5-8 months": {
+    "child": "Vocalises tunefully, begins to put syllables together, repeats a variety of sounds. Goo, gaa, muh. Responds to tone of speaker's voice. Gradually over a period of 24-50 weeks the range of sounds become more specific to those uttered in the particular language of your child",
+    "adult": "Use Parentese and provide reinforcement by repeating her sounds back to her."
+  },
+
+  "8-12 months": {
+    "child": "Uses sounds to communicate with others, babbles tunefully to self and others. Understands the sense conveyed in language and can begin to respond to show that she understands. Can sing 'goodbye', 'hello' etc.",
+    "adult": "Talk to her about the environemtn & daily life to provide as much language as possible."
+  },
+
+  "12 months": {
+    "child": "Starts to use words intentionally. Shows understanding of what is said. 'Where is your hat'?, 'Bath time'. Can hand known objects to the speaker on request.",
+    "adult": "Use the specific and real names of things, and be careful about their language and pronunciation."
+  },
+
+  "12-18 months": {
+    "child": "Uses simple words to convey sentences. 'Dada' could me, Come Dad, Dad where are you? There you are. Sometimes it is the intonation that will convey full meaning.",
+    "adult": "Try not to get frustrated – ask questions to learn what he means, and model real conversation."
+  },
+  
+  "18-24 months": {
+    "child": "Loves nursery rhymes, books, likes to sing. Moves from possible 6-20 words to simple sentences and vocabulary around 24 months. Wants to know the names of things and will point and ask, 'What's dat'?, 'Why'?",
+    "adult": "Model correct forms upon mistakes (without explicitly correcting the child)."
+  },
+
+  "2-3 years": {
+    "child": "Loves to be read to. Enjoys rhymes and poems, has favourites. Many sounds still not pronounced accurately but huge increase in vocabulary and complexity of sentence structure. All basic language structures in place. Refinement and expansion now possible. Talks to self while playing and to others.",
+    "adult": "Play language games"
+  },
+  "3-4 years": {
+    "child": "Is able to use language to convey more abstract thoughts such as likes, dislikes, bad dreams etc. Can speak logically and grammatically, tells stories and continues to expand vocabulary. Likes nonsense rhymes and jokes, and sound games.",
+    "adult": ""
+  },
+  "4-5 years": {
+    "child": "Uses language to co-ordinate activity with other children while playing. Begins to use language in more abstract forms such as writing",
+    "adult": ""
+  },
+  "5-6 years": {
+    "child": "Asks the meaning of abstract words and uses them. Can use language to describe future and past events. Very clear on tomorrow, next week etc. Precise about age, address, telephone number. Loves jokes. Most grammatical structure is complete by this time. Enjoys listening to stories and 'reading' them",
+    "adult": ""
+  }
+  
+}
