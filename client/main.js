@@ -14,6 +14,12 @@ Router.route('/', function() {
 });
 
 
+Router.route('/psycho-motor', function() {
+  this.render('navbar', {to:'header'});
+  this.render('psycho-motor', {to:'main'});
+});
+
+
 // Template.hello.onCreated(function helloOnCreated() {
 //   // counter starts at 0
 //   this.counter = new ReactiveVar(0);

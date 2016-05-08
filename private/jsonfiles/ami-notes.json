@@ -1,0 +1,23 @@
+{
+  "7-8 months in uterus": {
+    start: "-2m",
+    end: "-1m",
+    child: "Reacts to sounds from the environment, stretches and kicks when he hears a familiar sound. Mother's voice and the rhythm of her language becomes a strong reference point for after birth. Can also remember other regular voices, such as that of father talking / reading a book to the baby regularly, or the melodies of songs sung frequently.",
+    adult: "Regulary read and sing simple songs to your baby"
+  },
+
+  "3 weeks" : {
+    start: "3w",
+    end: "3w",
+    child: "Starts watching the mum intensely",
+    adult: "This is a good point to introduce songs and rhythmic language"
+  },
+
+  "2m-4m": {
+    start: "2m",
+    end: "4m",
+    child: "Starts making cooing and babbling noises, a sign that the vocal cords are developing",
+    adult: "Nursing helps with this development"
+  }
+  
+}
