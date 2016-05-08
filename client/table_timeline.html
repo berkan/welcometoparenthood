@@ -1,0 +1,26 @@
+<template name="table_timeline">
+  <div class="container">
+    <table class="table table-bordered table-responsive table-centered span5">
+      <thead>
+	<tr>
+          <td>Age</td>
+          <td>Child</td>
+	  <td>Adult</td>
+	</tr>
+      </thead>
+      <tbody>
+	{{#each this}}
+	{{> table_row}}
+	{{/each}}
+      </tbody>
+    </table>
+  </div>
+</template>
+
+<template name="table_row">
+  <tr>
+    <td>{{time}}</td>
+    <td>{{title}}</td>
+    <td>{{text}}</td>
+  </tr>    
+</template>

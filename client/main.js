@@ -13,12 +13,48 @@ Router.route('/', function() {
   this.render('introduction', {to:'main'});
 });
 
-
 Router.route('/psycho-motor', function() {
   this.render('navbar', {to:'header'});
-  this.render('psycho-motor', {to:'main'});
+  this.render('psycho_motor', {to:'main'});
 });
 
+
+Router.route('/developing-language', function() {
+  this.render('navbar', {to:'header'});
+  this.render('developing_language', {to:'main'});
+});
+
+
+Template.developing_language.helpers({
+  states: function() {
+    return [
+      { time: 1, title: "first", text: "hello first"},
+      { time: 2, title: "second", text: "hello second"},
+      { time: 3, title: "third", text: "hello third"},
+      { time: 4, title: "fourth", text: "hello fourth"},    
+    ]
+  }
+  
+});
+
+Template.developing_language.onRendered(function() {
+  var $cntl = this.$('.cntl');
+  $cntl.cntl(
+    {
+      revealbefore: 300,
+      anim_class: 'cntl-animate',
+      onreveal: function(e){
+	console.log(e);
+      }
+    });
+	     
+  console.log("hello");
+});
+
+
+Template.psycho_motor.onRendered(function() {
+  this.$('img[usemap]').rwdImageMaps();  
+});
 
 // Template.hello.onCreated(function helloOnCreated() {
 //   // counter starts at 0

@@ -1,0 +1,27 @@
+<template name="vertical_timeline">
+  <div class="cntl">
+    <span class="cntl-bar cntl-center">
+      <span class="cntl-bar-fill"></span>
+    </span>
+
+    <div class="cntl-states">
+      {{#each this}}
+      {{> timeline_state}}
+      {{/each}}
+    </div>
+  </div>
+</template>
+
+<template name="timeline_state">
+  <div class="cntl-state">
+    <div class="cntl-content">
+      <h4>{{title}}</h4>
+      <p>{{text}}
+      </p>
+    </div>
+    
+    <div class="cntl-image"><img src="http://placesheen.com/300/200"></div>
+    <div class="cntl-icon cntl-center">{{time}}</div>
+  </div>
+
+</template>

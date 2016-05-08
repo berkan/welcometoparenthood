@@ -1,8 +1,12 @@
 <template name="ApplicationLayout">
   <head>
-    <title>MusicMachine</title>
+    <title>What you should now</title>
   </head>
 
   {{> yield "header"}}
-  {{> yield "main"}}  
+  
+  <div class="top-margin">
+    {{> yield "main"}}
+  </div>
+  
 </template>
